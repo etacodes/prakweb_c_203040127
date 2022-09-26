@@ -16,7 +16,7 @@ if (isset($_POST['cari'])) {
 	<title>DAFTAR BUKU</title>
 </head>
 <body>
-	<h3>DAFTAR BUKU</h3>
+	<h3>DAFTAR BUKU APA YAAA?</h3>
 	<a href = "tambah.php">Tambah Data Buku</a>
 	<br><br>
 
