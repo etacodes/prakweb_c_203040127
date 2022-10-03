@@ -15,53 +15,55 @@ if (isset($_POST['tambah'])) {
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tambah Data Buku</title>
 </head>
-<body>
-    <h3>Form Tambah Data Buku</h3>
-    <form action="" method="POST" enctype="multipart/form-data">
-        <ul>
-            <li>
-                <label>
-                  Judul Buku :
-                  <input type="text" name="judul_buku" required>
-                </label><br><br>
-            </li>
-            <li>
-                <label>
-                  Penerbit :
-                  <input type="text" name="penerbit" autofocus required>
-                </label><br><br>
-            </li>
-            <li>
-                <label>
-                  Pengarang :
-                  <input type="text" name="pengarang" required>
-                </label><br><br>
-            </li>
-            <li>
-                <label>
-                  Tahun :
-                  <input type="text" name="tahun" required>
-                </label><br><br>
-            </li>
 
-            <li>
-                <label>
-                  Gambar :
-                  <input type="file" name="gambar" class="gambar" onchange="previewImage()">
-                </label>
-                <img src="img/nophoto.png" width="120" style="display: block;" class="img-preview">
-            </li>
-            <br>
-            <li>
-                <button type="submit" name="tambah">Tambah Data!</button>
-            </li>
-        </ul>
-    </form>
+<body>
+  <h3>Form Tambah Data Buku</h3>
+  <form action="" method="POST" enctype="multipart/form-data">
+    <ul>
+      <li>
+        <label>
+          Judul Buku :
+          <input type="text" name="judul_buku" autofocus required>
+        </label>
+      </li>
+      <li>
+        <label>
+          penerbit :
+          <input type="text" name="penerbit" required>
+        </label>
+      </li>
+      <li>
+        <label>
+          pengarang :
+          <input type="text" name="pengarang" required>
+        </label>
+      </li>
+      <li>
+        <label>
+          tahun :
+          <input type="text" name="tahun" required>
+        </label>
+      </li>
+      <li>
+        <label>
+          Gambar :
+          <input type="text" name="gambar" class="gambar" required>
+        </label>
+      </li>
+      <li>
+        <button type="submit" name="tambah">Tambah Data!</button>
+      </li>
+    </ul>
+  </form>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
