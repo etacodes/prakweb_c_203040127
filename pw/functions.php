@@ -1,5 +1,4 @@
 <?php
-
 function koneksi()
 {
   return mysqli_connect('localhost', 'root', '', 'prakweb_c_203040127_pw');
