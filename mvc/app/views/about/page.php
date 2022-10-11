@@ -1,2 +1,2 @@
 
-    <h1>My pages</h1>
+ <h1>page 1</h1>

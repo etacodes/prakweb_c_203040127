@@ -1,10 +1,12 @@
 <?php
 
 class User_model {
-    private $nama = 'Ericko';
+    private $nama ='Ericko';
 
-    public function getUser()
-    {
+    public function getUser() {
         return $this->nama;
     }
 }
+
+
+?>
